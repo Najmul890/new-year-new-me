@@ -103,3 +103,70 @@ p{
     font-size: 30px;
     margin: 30px 0;
 }
+
+/* call now section design */
+.call-now{
+    padding: 50px;
+}
+.call-now-container{
+    background-image: linear-gradient(to right, rgb(247, 91, 0) , white), url('images/watch.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    padding: 80px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.call-now h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.call-now button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(243, 82, 7);
+    font-weight: bold;
+}
+
+/* styles contact section */
+.contact{
+    display: flex;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 2px;
+}
+.contact-left{
+    padding: 20px 100px 20px 50px;
+    width: 50%;
+}
+.contact-left h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.contact-left p{
+    margin-bottom: 10px;
+}
+.contact-right{
+    padding: 50px;
+}
+.contact-right h4{
+    font-size: 30px;
+}
+.contact-right input{
+    padding: 20px 40px;
+    margin: 30px 0 30px 0;
+    width: 100%;
+}
+.contact-right button{
+    padding: 15px 30px;
+    background-color: #fff;
+    color: orangered;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
